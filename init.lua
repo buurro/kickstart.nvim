@@ -349,6 +349,8 @@ require('lazy').setup({
     },
   },
 
+  { 'lukas-reineke/indent-blankline.nvim', main = 'ibl', opts = {} },
+
   -- NOTE: Plugins can specify dependencies.
   --
   -- The dependencies are proper plugin specifications as well - anything
