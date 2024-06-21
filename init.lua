@@ -416,7 +416,7 @@ require('lazy').setup({
           -- mappings = {
           --   i = { ['<c-enter>'] = 'to_fuzzy_refine' },
           -- },
-          file_ignore_patterns = { '^./.git/', '^node_modules/' },
+          file_ignore_patterns = { '.git/', '^node_modules/' },
         },
         pickers = {
           find_files = { hidden = true },
