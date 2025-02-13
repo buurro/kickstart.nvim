@@ -40,4 +40,10 @@ return {
       end)
     end,
   },
+  {
+    'numToStr/Comment.nvim',
+    opts = {
+      -- add any options here
+    },
+  },
 }
