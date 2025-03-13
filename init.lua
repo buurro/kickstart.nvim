@@ -781,7 +781,7 @@ require('lazy').setup({
         -- Conform can also run multiple formatters sequentially
         python = function(bufnr)
           if require('conform').get_formatter_info('ruff_format', bufnr).available then
-            return { 'ruff_format' }
+            return { 'ruff_fix', 'ruff_format', 'ruff_organize_imports' }
           else
             return { 'isort', 'black' }
           end
